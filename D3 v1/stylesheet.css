@@ -1,0 +1,26 @@
+<head>
+  <style type="text/css">
+    body {
+      font: 10px sans-serif;
+    }
+
+    .axis path,
+    .axis line {
+      fill: none;
+      stroke: #000;
+      shape-rendering: crispEdges;
+    }
+    
+    .axis text {
+			font: 10px sans-serif;
+		}
+
+    .bar {
+      fill: steelblue;
+    }
+
+    .x.axis path {
+      display: none;
+    }
+  </style>
+</head>

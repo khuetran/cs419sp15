@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+	<title>Age Trends for Different Ethnicities</title>
+  
+	<link type="text/css" rel="stylesheet" href="stylesheet.css" />
+  
+  <script type="text/javascript" src="http://d3js.org/d3.v3.min.js"></script>
+  
+	<script type="text/javascript" src="chart_white.js"></script>
+	<script type="text/javascript" src="chart_black.js"></script>
+	<script type="text/javascript" src="chart_mex.js"></script>
+	<script type="text/javascript" src="chart_pr.js"></script>
+	<script type="text/javascript" src="chart_alaskan.js"></script>
+	<script type="text/javascript" src="chart_asian.js"></script>
+  
+</head>
+
+<body>
+	<div id="wrap">
+  
+		<div id="White">
+			<script>
+				var chart1 = chartWhite();
+				chart1();
+			</script>
+		</div>
+    
+    <div id="Black">
+			<script>
+				var chart2 = chartBlack();
+				chart2();
+			</script>
+		</div>
+    
+    <div id="Mexican">
+			<script>
+				var chart3 = chartMex();
+				chart3();
+			</script>
+		</div>
+    
+    <div id="PuertoRican">
+			<script>
+				var chart4 = chartPR();
+				chart4();
+			</script>
+		</div>
+    
+    <div id="Alaskan">
+			<script>
+				var chart5 = chartAlaskan();
+				chart5();
+			</script>
+		</div>
+    
+    <div id="Asian">
+			<script>
+				var chart6 = chartAsian();
+				chart6();
+			</script>
+		</div>
+    
+	</div>
+</body>
+</html>

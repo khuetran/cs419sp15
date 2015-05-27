@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+	<title>Age Trends for Different Genders</title>
+  
+	<link type="text/css" rel="stylesheet" href="stylesheet.css" />
+  
+  <script type="text/javascript" src="http://d3js.org/d3.v3.min.js"></script>
+  
+	<script type="text/javascript" src="chart_male.js"></script>
+	<script type="text/javascript" src="chart_female.js"></script>
+  
+</head>
+
+<body>
+	<div id="wrap">
+  
+		<div id="Males">
+			<script>
+				var chart1 = chartMale();
+				chart1();
+			</script>
+		</div>
+    
+    <div id="Females">
+			<script>
+				var chart2 = chartFemale();
+				chart2();
+			</script>
+		</div>
+    
+	</div>
+</body>
+</html>
