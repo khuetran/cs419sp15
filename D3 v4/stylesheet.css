@@ -1,0 +1,40 @@
+<head>
+  <style type="text/css">
+    body {
+      font: 10px sans-serif;
+    }
+    
+    path {
+      stroke: indigo;
+      stroke-width: 2;
+      fill: none;
+    }
+
+    .axis path,
+    .axis line {
+      fill: none;
+      stroke: #000;
+      shape-rendering: crispEdges;
+    }
+    
+    .axis text {
+			font: 10px sans-serif;
+		}
+
+    .bar {
+      fill: steelblue;
+    }
+
+    .x.axis path {
+      stroke-width: 1;
+    }
+    
+    .grid .tick {
+      stroke: lightgrey;
+      opacity: 0.7;
+    }
+    .grid path {
+      stroke-width: 0;
+    }
+  </style>
+</head>
